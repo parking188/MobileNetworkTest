@@ -17,7 +17,7 @@ MonoBehaviour:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -34,15 +34,16 @@ MonoBehaviour:
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: ba07b8f4cde362343a9ea7d8589e425f
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: 331f7ae81dd8d5247bdbcee5c4903691
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 0d43e7e13534107428b4e07537b612bb, type: 2}
   - {fileID: 11400000, guid: 50657146cc49d8349809f7ff4842ca95, type: 2}
+  - {fileID: 11400000, guid: ebd27ba2daa3d5145b2e7fde48352185, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -63,7 +64,7 @@ MonoBehaviour:
       - m_Id: ba07b8f4cde362343a9ea7d8589e425f
         m_Value: ServerData/[BuildTarget]
       - m_Id: 331f7ae81dd8d5247bdbcee5c4903691
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: https://s3.ap-southeast-2.amazonaws.com/dl.mobilenetworktest/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: bdd8d70c42539b84b9e63b0746b79d44
       m_Name: BuildTarget
@@ -84,6 +85,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - material
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 27cdcc5f170f75a42ab7e73533cf909f, type: 2}
